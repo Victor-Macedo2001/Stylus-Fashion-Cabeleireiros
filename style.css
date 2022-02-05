@@ -1,0 +1,181 @@
+/*reset*/
+
+*{margin:0; padding:0; font-size:100%; font-weight:normal; font-family:sans-serif;
+ box-sizing:border-box; border:none;
+}
+
+
+h2{font-size:1em color#333}
+p{font-size:1em; color:#777;}
+hr{width:1vw; color:black;}
+
+html{padding:0;}
+body {width:100%; height:auto; margin:0; padding:0;}
+.tudo{width:100%; height:auto; padding:0; position:absolute;}
+
+/*Cabeçalho*/
+
+.cabecalho{width:100%; height:auto; padding:0 6% 3px 5%; float:left; border-bottom:Solid 0.12vw; background-color:#757575; margin-bottom:1.5vw;}
+
+.cabecalho .logo {width:60%; height:6.5vw; float:left;
+background:url(https://lh3.googleusercontent.com/-5NlAnSZPMmA/YSj_fI7dxJI/AAAAAAAAB6E/aZt3HzdmIu025y_X8yKx5TKE07V6nkOxQCLcBGAsYHQ/s1600/1630076794858643-0.png) no-repeat; background-color:;
+background-size:24vw; margin-left:3%; font-size:0; cursor:pointer;}
+
+
+/*Menu*/
+
+.menu{width:100%; padding:0 30%; margin:0 0;}
+.menu a{margin-left:0;}
+.menu button{Width:9vw; height:1.9vw; padding:0.2%; background-color:black; border:solid; border-color:black; border-width:0.1vw; 
+font-family:arial, sans-serif; font-size:1.2vw; color:#595959; font-weight:bold; cursor:pointer;}
+.menu button:hover{background-color:white; color:black;}
+
+
+/*CONTEÚDO DA PRIMEIRA PÁGINA*/
+
+
+.principal{width:100%; heigth:auto; background-color:;}
+
+.promocoes{width:100%; padding:0 30%; margin-top:15vw;}
+.promocoes .socialD{width:30%; float:left;}
+.promocoes .degradeD{width:30%; float:right; margin-top:26vw;}
+.promocoes .barbaD{width:30%; float:left; margin-top:26vw;}
+.promocoes h1{font-size:3vw; color:; font-weight:bold; margin-top:30vw;}
+.promocoes .social{margin-top:1vw; padding-top:0;}
+.promocoes h2{font-size:2vw; color:white; font-weight:bold; margin:0;}
+.titulo{font-family:arial, sans-serif; font-size:3vw; color:#EBEBEB; font-weight:bold;}
+
+.pagamentos{width:100%; heigth:auto; background-color:;}
+.pagamentos img{width:32%; heigth:auto; background-color:;}	
+.pagamentos .fiado{width:72%;}		
+
+
+
+/*CONTEÚDO PÁGINA CORTE*/
+
+.CORTE{width:100%; padding:0; margin:0;}
+.cortes{width:70%; height:auto; display:flex; margin:0 15%;}
+.cortes img{width:21vw;}
+.CORTE h2{font-size:3vw; margin:15% 0 0 21%; font-weight:bold; color:white;}
+
+
+
+/*Contatos*/
+.contato{width:100%; padding:0; margin:9% 0;}
+.contato .titulo{font-size:6vw; font-weight:bold; color:#DB5142; text-decoration:underline; margin-bottom:12%;}
+.contato .links{width:60%; padding:0; margin:0 30%;}
+.links{font-size:2vw; font-weight:bold; color:white; margin-bottom:9%; text-decoration:none;}
+.links a{color:#D4D4D4;}
+.links a:hover{color:#FFFFAE; text-decoration:underline; }
+
+.contato .endereco{font-size:2.4vw; color:white; font-weight:bold; text-decoration:none; margin-bottom:0;}
+.endereco h1{font-size:2.4vw; font-weight:bold; color:#DB5142; text-decoration:none; margin-bottom:0;}
+
+
+/*Rodapé*/
+  
+.rodape{width:100%; heigth:3vw; background-color:#242424;}
+
+.rodape a{cursor:pointer; color:white;}
+.rodape h2{text-decoration:underline; font-size:1vw; font-weight:bold; color:white;}
+.rodape h3{color:#FFE2F2; font-size:0.9vw;}
+.rodape button{Width:6%; height:18%; background-color:#CDCFCF; border:solid; border-color:black; border-width:1px; 
+font-family:arial, robot, sans-serif; font-size:0.9vw; color:black; font-weight:bold; padding:0.6%; cursor:pointer;}
+.rodape button:hover{background-color:black; color:white;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px){
+
+/*Cabeçalho*/
+
+.cabecalho{height:21vw; padding:1vw 24%; float:none;}
+
+.cabecalho .logo {height:15vw; width:100%;
+background-size:51vw; margin:0;}
+
+.cabecalho form{width:100%; float:none;}
+.cabecalho input[type="search"]{height:3vw; font-size:2vw;}
+.cabecalho button{height:3vw; font-size:2vw;}
+
+
+
+/*Menu*/
+
+.menu{width:100%; padding:0 9%; margin:0 0;}
+.menu a{margin-left:0;}
+.menu button{Width:18vw; height:4.5vw; padding:0.3%; font-size:3vw;}
+
+
+
+/*CONTEÚDO DA PRIMEIRA PÁGINA*/
+.promocoes{padding:0 15%;}
+.promocoes .socialD{width:51%; margin:0;}
+.promocoes .degradeD{width:51%; margin:37vw 0;}
+.promocoes .barbaD{width:51%; margin:0;}
+
+.promocoes h1 {font-size:5.1vw; margin:48vw 0 0 0; padding:0;}
+.promocoes .social{margin-top:4vw;}
+.promocoes h2{font-size:4.2vw;}
+
+.pagamentos{width:100%; heigth:auto; background-color:; padding:0 15%;}
+.pagamentos img{width:100%; heigth:auto; background-color:; margin:0 0 30vw 0; display: table;}	
+
+.pagamentos .fiado{width:60vw; height:auto; margin-top:0;}	
+
+
+
+/*CONTEÚDO PÁGINA CORTE*/
+
+.CORTE{width:100%; padding:0; margin:0;}
+.cortes{width:50%; height:auto; margin:0 20%;}
+.cortes img{width:18vw;}
+.CORTE h2{font-size:2.5vw; margin:21% 0 0 6%;}
+
+
+/*Contato*/
+.contato{}
+.contato .titulo{font-size:12vw; margin-bottom:30vw;}
+.contato .links{width:100%; margin:0 0 0 27%;}
+.links h1{font-size:4vw;}
+.endereco h1{font-size:9vw;}
+.endereco h2{font-size:4.5vw;}
+.endereco iframe{width:90%; height:60%; margin-bottom:30vw;}
+
+
+
+/*Rodapé*/
+
+.rodape h2{font-size:3.3vw;}
+.rodape h3{font-size:2.9vw;}
+.rodape button{Width:16%; height:36%; font-size:3vw;}
+}
